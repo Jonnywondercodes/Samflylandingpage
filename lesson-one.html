@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-one</title>
+    <link rel="stylesheet" href="Styles/Lesson-one.css">
+</head>
+
+<body>
+    <button>Click</button>
+    <button>Miracle</button>
+    <button>Jollof Rice</button>
+    <p>Hello, World!</p>
+    <p>I went to my Place of Primary Assignment today.</p>
+    <a href="https://www.youtube.com/" target="_blank" title="Goes to YouTube">Click this to redirect you to YouTube</a>
+
+
+    <div class="container">
+        <a class="link-text" href="https://www.amazon.com">Back to Amazon</a>
+        <p class="text-one">Nike Black Running Shoes</p>
+        <p class="text-two">$39 - in stock.</p>
+        <p class="text-three">Free delivery tomorrow.</p>
+        <button class="button-container-one">Add to Cart</button>
+        <button class="button-container-two">Buy now</button>
+    </div>
+    <br>
+    <audio controls>
+        <source src="/HTML-CSS/Wizkid-Ft-DJ-Tunez-and-Fola-One-Condition-(TrendyBeatz.com).mp3" type="">
+    </audio>
+    <video controls autoplay src="/HTML-CSS/Screen Recording 2025-07-14 122633.mp4" width="500px">
+
+    </video>
+    <a href="https://google.com">
+<button id="justbutton" onclick="doSomething()">
+        Register!
+    </button>
+    </a>
+        <p id="Save for later">Book your slot now!</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("Save for later").innerHTML = Deadline is approaching
+        }
+    </script>
+    <form action="lesson-one.php">
+        <label for="">Password:</label>
+        <input type="text" minlength="5" maxlength="10" required>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="Email" placeholder="johnowolabi522@gmail.com">
+        <label for="number">Number</label>
+        <input type="number" id="number" min="0" max="99" value="1"> <br>
+        <label for="Mr">Mr</label>
+        <input type="radio" name="title">
+        <label for="Mrs">Mrs</label>
+        <input type="radio" name="title">
+        <label for="Miss" name="title">Miss</label>
+        <input type="radio">
+        <br>
+        <label for="Payment">Payment option</label>
+        <select name="Payment" id="Payment">
+            <option value="Visa">Visa</option>
+                        <option value=" Mastercard">Mastercard</option>
+                                    <option value="Verve">Verve</option>
+
+        </select> <br>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox">
+        <br>
+        <label for="comment">comment</label>
+        <textarea name="" id="comment"></textarea>
+        <input type="file" name="" id="">
+    </form>
+    
+</body>
+
+</html>

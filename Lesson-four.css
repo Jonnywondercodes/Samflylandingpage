@@ -1,0 +1,101 @@
+p {
+            font-family: Arial;
+            margin-top: 0;
+            box-sizing: border-box;
+        }
+        .main-container{
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 50%;
+padding-bottom: 5px;
+        }
+.cont-con{
+width: 280px;
+}
+        .video-title {
+            font-weight: bold;
+            font-size: 18px;
+            width: 280px;
+            line-height: 24px;
+            margin-bottom: 5px;
+        }
+
+        .video-stats {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+        }
+
+        .video-author {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 20px;
+
+        }
+
+        .video-description {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            width: 280px;
+            line-height: 20px;
+        }
+
+        .apple-text {
+            margin-bottom: px;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: rgb(227, 65, 64);
+            color: white;
+            text-align: center;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            width: 280px;
+            line-height: 20px;
+        }
+
+        .span-it-for-me {
+            cursor: pointer;
+        }
+
+        .span-it-for-me:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling the second exercise */
+        .course-title {
+            font-family: Verdana;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 0;
+            display: block;
+        }
+
+        .course-subtitle {
+            font-family: Verdana;
+            color: rgb(96, 96, 96);
+            margin-top: 5px;
+        }
+
+        .course-description {
+            font-family: Verdana;
+            width: 290px;
+            margin-bottom: 0;
+        }
+
+        .button {
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(23, 171, 23);
+            color: white;
+            font-family: Verdana;
+            width: 120px;
+            padding: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        hr{
+            width: 20%;
+            float: left;
+            margin-top: 0px;

@@ -1,0 +1,44 @@
+button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(207, 203, 203);
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(173, 164, 164);
+
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: rgb(233, 226, 226);
+    width: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown a:hover {
+    background-color: rgb(209, 205, 205);
+    ;
+}
+
+.content {
+    display: none;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown {
+    display: inline-block;
+}
