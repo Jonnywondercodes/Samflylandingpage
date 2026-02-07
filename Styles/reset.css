@@ -1,0 +1,96 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    padding: 20px 5px 0px 25px;
+}
+
+@media screen and (max-width:768px){
+.main-container  {
+    grid-template-columns: 1fr;
+    padding: 0;
+}  
+.sidebar{
+    display: none;
+    z-index: 0;
+}
+.middle-section{
+    display: none;
+}
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.container-five,
+.container-six,
+.container-seven,
+.container-eight,
+.container-nine,
+.container-ten,
+.container-eleven,
+.container-twelve{
+width: 340px;
+}
+}
+
+/* Dont stress me */
+.videothumbnail-one {
+    position: relative;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 3px;
+    border-radius: 2px;
+    position: absolute;
+    right: 16px;
+    bottom: 10px;
+}
+
+.thumbnail-one {
+    width: 340px;
+}
+
+.channel-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.videopreview-one {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.videostat-one>p {
+    font-family: Roboto, Arial;
+}
+
+.video-title-one {
+    font-size: 14px;
+    font-weight: 500;
+    width: 290px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.Channel-owner-one {
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+.video-stat-one {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #606060;
+}
+
+
+
+style="margin: 0; padding-top: 60px; padding-left: 70px;"

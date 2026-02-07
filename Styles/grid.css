@@ -1,0 +1,83 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:300px) and (max-width: 699px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    @media (min-width:751px) and (max-width: 999px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        
+    }
+
+     .div-one {
+        background-color: rgb(135, 113, 111);
+        font-weight: bold;
+        font-family: Verdana;
+        height: 200px;
+    }
+ .div-two {
+        background-color: rgb(111, 30, 21);
+        font-weight: bold;
+        font-family: Verdana;
+        height: 200px;
+    }
+    
+    .div-six {
+        background-color: salmon;
+        font-weight: bold;
+        font-family: Verdana;
+        height: 200px;
+    }
+ .div-three {
+        background-color: rgb(52, 9, 5);
+        font-weight: bold;
+        font-family: Verdana;
+        height: 200px;
+    }
+    .div-four {
+        background-color: rgb(209, 159, 154);
+        font-weight: bold;
+        font-family: Verdana;
+        height: 200px;
+    }
+    .div-five {
+        background-color: aquamarine;
+        font-weight: bold;
+        height: 200px;
+        font-family: Verdana;
+    }
+
+ 
+    .div-eight {
+        background-color: rgb(157, 181, 172);
+        font-weight: bold;
+        height: 200px;
+        font-family: Verdana;
+    }
+
+    .div-seven {
+        background-color: brown;
+        font-weight: bold;
+        height: 200px;
+        font-family: Verdana;
+    }
